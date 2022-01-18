@@ -1,0 +1,41 @@
+body {
+  background-color: #516BEB;
+}
+
+.clock {
+  width: 30%;
+  margin: 12rem auto;
+}
+
+.clock-face {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-color: #84DFFF;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+
+.hand {
+  border: 1.5px solid;
+  background-color: #000;
+  top: 50%;
+  left: 3%;
+  position: absolute;
+  transform-origin: 100%;
+  width: 45%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function:  cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+  background-color: #FFFCDC;
+  border-color: #FFFCDC;
+}
+
+.min-hand {
+  background-color: #11468F;
+  border-color: #11468F;
+}
